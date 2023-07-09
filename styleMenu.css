@@ -33,7 +33,7 @@ body{
 }
 #home{
   background-color: #f1f1f1;
-  padding: 12vw;
+  padding: 14vw;
   text-align: center;
   background-image: url("./imgs/bmpcc6kRig.JPG");
   background-size: 100%;
@@ -41,7 +41,7 @@ body{
 }
 .header{
   background-color: #f1f1f1;
-  padding: 8vw;
+  padding: 5vw;
   text-align: center;
   background-image: url("./imgs/bmpcc6kRig.JPG");
   background-size: 100%;
