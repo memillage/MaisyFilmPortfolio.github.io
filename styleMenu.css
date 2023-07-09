@@ -31,11 +31,27 @@ body{
     background-color:rgb(44, 49, 78);
     cursor: default;
 }
-.header {
+#home{
+  background-color: #f1f1f1;
+  padding: 250px;
+  text-align: center;
+  background-image: url("./imgs/bmpcc6kRig.JPG");
+  background-size: 100%;
+  background-position: 50%;
+}
+.header{
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
   background-image: url("./imgs/bmpcc6kRig.JPG");
+  background-size: 100%;
+  background-position: 50%;
+}
+#engr {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  background-image: url("./imgs/circuit-board.JPG");
   background-size: 100%;
   background-position: 50%;
 }
