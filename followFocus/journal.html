@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/png" href="../imgs/m_logo.png">
+	<link rel="apple-touch-icon" href="../imgs/m_logo.png">
+    
+    <link rel="stylesheet" href="../styleMenu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <title>Journal</title>
+</head>
+
+
+<body>
+  <div class="header">
+    <p>Journal</p>
+  </div>
+    <!-- Large Screen Navigation Bar -->
+    <nav>
+      <a href="../home.html">
+        <img  class="logo" src="../imgs/m_logo.png" width="auto" height="28px">
+      </a>
+      <div class="links">
+        <p><a href="followFocus.html">Concept</a></p>
+        <p><a href="demo_videos.html">Demo Videos</a></p>
+        <p><a href="components.html">Components</a></p>
+        <p><a class="active" href="journal.html">Journal</a></p>
+        <p><a href="resources.html">Resources</a></p>
+        <p id="mobile-menu-btn"><span class="material-symbols-outlined hamburger">menu</span></p>
+      </div>
+    </nav>
+    <!-- Small Screen Navigation Bar -->
+    <div class="mobile-menu">
+      <p><a href="followFocus.html">Concept</a></p>
+      <p><a href="demo_videos.html">Demo Videos</a></p>
+      <p><a href="components.html">Components</a></p>
+      <p><a class="active" href="journal.html">Journal</a></p>
+      <p><a href="resources.html">Resources</a></p>
+    
+      <div class="content"> 
+        <div class="projects">
+          Week I
+        </div>
+    <div class = "entry">
+            Initially, I tried using Visual Studio with the Platform.io library and provided code from the makefab's github. After adding the code, I ran it, 
+      but unfortunately the board wasn't being programmed. After a few more attempts, it still didn't work so I switched to the Arduino IDE. I again used the 
+      given code and DW1000 library from the previously mentioned makerfab github. I tried adding the ports, but they weren't showing up. After switching the 
+      cables plugged into the computer, it finaly registered the ports and the boards. I also initially had the incorrect baud rate so the output was incorrect.
+      Once I changed it, the correct outputs displayed, showing the distance between the two UWB devices. I then converted the output from meters to feet. The 
+      current outputs are not very accurate and will need to be calabrated through testing.
+    </div>
+    <div class = "entry">
+      I bought the incorrect power cables to connect to the 12V source. The ones I got were 5.5 x 5.1 power jacks, but I needed 5.5 x 2.5. 
+      In addition, the gears I received to use with the lens do not fit on the motor shaft of the Nema 17. To meditate the issue, I bought ridge flange shaft couplings
+      which I will connect to the gear and place onto the motor shaft. To conceptualize the idea, I created a 3D model with the dimensions of each item. 
+    </div>
+          <div class="description"><model-viewer src="../models/followFocus_motor-gear_v04.glb" camera-controls></model-viewer></div>
+    <div class ="img_description">Figure 1: Nema 17 stepper motor with gear</div>
+    <div class = "entry">
+      After I created the model, I decided to design a part which will be 3D printed. It is designed to be attached to the bottom of the motor and screwed to the 
+      camera rig accessory with a theaded heat insert.
+    </div>
+        <div class="description"><model-viewer src="../models/followFocus_rod-motor-attachment_v01.glb" camera-controls></model-viewer></div>
+    <div class ="img_description">Figure 2: Part design to attach motor to the camera</div>
+        <div class="description"><model-viewer src="../models/followFocus_motor-gear_v03.glb" camera-controls></model-viewer></div>
+    <div class ="img_description">Figure 3: Part design attached to motor</div>
+        </div> 
+    </body>
+
+
+<script src='../script.js'></script>
+
+</html>
