@@ -33,7 +33,7 @@ body{
 }
 #home{
   background-color: #f1f1f1;
-  padding: calc(20vw - 32px);
+  padding: calc(20vw - 31.5px);
   text-align: center;
   background-image: url("./imgs/bmpcc6kRig.JPG");
   background-size: 100%;
